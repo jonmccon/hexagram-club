@@ -1,6 +1,13 @@
+@font-face {
+    font-family: 'JetBrainsMono';
+    src:  url('JetBrainsMono-Light.woff2') format('woff2'),
+          url('JetBrainsMono-Light.ttf') format('truetype');
+  }
+
 body {
     font-size: 14px;
     line-height: 1.3em;
+    font-family: 'JetBrainsMono', monospace, sans-serif;
     background-color: #231f20;
     margin: 0 auto;
 }
@@ -28,7 +35,7 @@ body {
     grid-area: email;
     padding: 2em;
     justify-content: space-evenly;
-    font-size: calc(1vw + 1vh + 1vmin);
+    font-size: calc(.5vw + .5vh + 1vmin);
 }
 
 a {
